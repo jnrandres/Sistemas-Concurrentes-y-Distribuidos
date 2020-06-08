@@ -1,2 +1,2 @@
-# Sistemas-Concurrentes-y-Distribuidos
+# Sistemas Concurrentes y Distribuidos
 Desarrollo del curso

@@ -15,3 +15,6 @@
 * Se muestra una marcada diferencia de tiempo en calcular el PI de manera paralela que de manera secuencial.
 
 * Los archivos JAVA se encuentran dentro del folder **src**
+
+## Metodo de ordenamiento Mergersort
+* Merge Sort es un algoritmo Divide and Conquer. Divide el array de entrada en dos mitades, se llama a sí misma para las dos mitades y luego combina las dos mitades ordenadas. La función merge () se usa para fusionar dos mitades. La fusión (arr, left , middle , right) es un proceso clave que supone que arr [left, ... , middle] y arr [middle+1, ..., right] se ordenan y fusiona las dos sub-matrices ordenadas en una. Vea la siguiente implementación de C para más detalles.

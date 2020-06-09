@@ -2,7 +2,7 @@
 
 * Los métodos de Monte Carlo son una amplia clase de algoritmos computacionales que dependen del muestreo aleatorio repetido para obtener resultados numéricos. Uno de los ejemplos básicos para comenzar con el algoritmo de Monte Carlo es la estimación de Pi.
 
-* La idea es simular puntos aleatorios (x, y) en un cuadrado de lado igual a 1 unidad. Imagine un círculo den el cuadrado. Luego calculamos la proporción de puntos números que se encuentran dentro del círculo y el número total de puntos generados.
+* La idea es simular puntos aleatorios (x, y) en un cuadrado de lado igual a 1 unidad. Imagine un círculo inscrito al cuadrado. Luego calculamos la proporción de puntos que se encuentran dentro del círculo y el número total de puntos generados.
 
 ![image info](./img/circuloInscrito.png)
 

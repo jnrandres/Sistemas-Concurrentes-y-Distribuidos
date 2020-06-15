@@ -8,10 +8,11 @@
  *
  * @author Lenovo
  */
-public class NewMain {
+public class Main {
 
     public static void main(String[] args) {
-    //int arr[100]={5,26,12,6,1,4,7,28,40,41,42,53,1000,65,52,70,81,52,56,312,20,145,152};
+    
+    long start = System.nanoTime();
     int[] arr = new int[5000];
     
     for(int z = 0;z< arr.length;z++){
@@ -34,7 +35,7 @@ public class NewMain {
     ordernar.sort(arr, 0,n-1);
     System.out.println();
     ordernar.imprimir(arr);
-    }
+    
     
     
     //*********** MERGERSORT Paralelizado ************
@@ -52,6 +53,10 @@ public class NewMain {
     ordernarparalelo.parallelmergersort(arr, 0,n-1,4);
     System.out.println();
     ordernarparalelo.imprimir(arr);
-    }*/
-
+    */
+    long end   = System.nanoTime();
+	long time = end - start;
+    System.out.println();
+    System.out.println(time/1000000000.0);
+    }
 }

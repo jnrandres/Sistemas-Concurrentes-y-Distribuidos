@@ -1,3 +1,8 @@
+# Laboratorio1
+
+### Integrantes :
+* Anthony Reynold Alcarraz Mucha
+* Andres Junior Montenegro Bello 
 ## Metodo Monte Carlo
 
 * Los métodos de Monte Carlo son una amplia clase de algoritmos computacionales que dependen del muestreo aleatorio repetido para obtener resultados numéricos. Uno de los ejemplos básicos para comenzar con el algoritmo de Monte Carlo es la estimación de Pi.

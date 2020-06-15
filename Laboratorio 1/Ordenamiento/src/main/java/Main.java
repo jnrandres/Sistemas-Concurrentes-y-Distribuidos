@@ -24,7 +24,7 @@ public class Main {
     
     //*********** MERGERSORT Simple ********
     
-    mergersort ordernar= new mergersort();
+    /*mergersort ordernar= new mergersort();
     System.out.println("Array original: ");
     for (int value : arr) {
         System.out.print(value + " ");
@@ -35,12 +35,12 @@ public class Main {
     ordernar.sort(arr, 0,n-1);
     System.out.println();
     ordernar.imprimir(arr);
-    
+    */
     
     
     //*********** MERGERSORT Paralelizado ************
     
-    /*mergersortparalelo ordernarparalelo= new mergersortparalelo();
+    mergersortparalelo ordernarparalelo= new mergersortparalelo();
     System.out.println();
     System.out.println("Array original: ");
     for (int value : arr) {
@@ -50,10 +50,14 @@ public class Main {
     System.out.println();
 
     System.out.print("Lista Ordenada :");
-    ordernarparalelo.parallelmergersort(arr, 0,n-1,4);
+    
+    int num_threads = 4;
+
+    ordernarparalelo.parallelmergersort(arr, 0,n-1,num_threads);
     System.out.println();
     ordernarparalelo.imprimir(arr);
-    */
+    
+
     long end   = System.nanoTime();
 	long time = end - start;
     System.out.println();
